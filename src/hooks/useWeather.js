@@ -35,7 +35,7 @@ export const useWeather = () => {
 					return {
 						...prevLoading,
 						state: true,
-						message: "Fetching weather data",
+						message: "Fetching weather data...",
 					};
 				});
 				const response = await fetch(

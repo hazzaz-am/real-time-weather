@@ -5,7 +5,7 @@ export default function HomePage() {
   return (
     <>
       <Header />
-      <main className="pt-32">
+      <main className="py-32">
         <WeatherDashboard />
       </main>
     </>
