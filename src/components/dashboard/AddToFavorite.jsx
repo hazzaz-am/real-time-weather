@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import favoriteIcon from '../../assets/heart.svg'
 import { useFavoriteContext, useWeatherContext } from '../../hooks';
+import favoriteIcon from '../../assets/heart.svg'
 import redHeart from '../../assets/heart-red.svg'
 
 export default function AddToFavorite() {
