@@ -10,11 +10,11 @@ export default function Modal() {
 				{
 					favorites.length > 0 ? (
 						favorites.map((fav) => (
-							<a onClick={(e) => {
+							<a key={fav.location} onClick={(e) => {
 								e.preventDefault()
 								setSelectedLocation({ ...fav })
 							}} className="flex flex-col hover:bg-gray-200">
-								<li key={fav.location}>
+								<li>
 									{fav.location}
 								</li>
 							</a>

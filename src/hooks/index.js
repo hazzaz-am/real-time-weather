@@ -3,6 +3,7 @@ import { useLocalStorage } from "./useLocalStorage";
 import { useWeatherContext } from "./useWeatherContext";
 import { useFavoriteContext } from "./useFavoriteContext";
 import { useLocationContext } from "./useLocationContext";
+import { useDebounce } from "./useDebounce";
 
 export {
 	useWeather,
@@ -10,4 +11,5 @@ export {
 	useWeatherContext,
 	useFavoriteContext,
 	useLocationContext,
+	useDebounce,
 };
