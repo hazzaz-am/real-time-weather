@@ -2,5 +2,12 @@ import { useWeather } from "./useWeather";
 import { useLocalStorage } from "./useLocalStorage";
 import { useWeatherContext } from "./useWeatherContext";
 import { useFavoriteContext } from "./useFavoriteContext";
+import { useLocationContext } from "./useLocationContext";
 
-export { useWeather, useLocalStorage, useWeatherContext, useFavoriteContext };
+export {
+	useWeather,
+	useLocalStorage,
+	useWeatherContext,
+	useFavoriteContext,
+	useLocationContext,
+};
